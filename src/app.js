@@ -21,7 +21,7 @@ app.use(requestId);
 app.use(httpLogger);
 
 /* Rutas */
-app.use('/', routes);
+app.use('/api', routes);
 
 /* Error handler global (siempre al final) */
 app.use(errorHandler);
